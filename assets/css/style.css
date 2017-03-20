@@ -1,0 +1,38 @@
+#gif-area {
+	width: 66%;
+	float: left;
+}
+
+#form {
+	width: 30%;
+	float: left;
+}
+
+button {
+	background-color: black;
+	color: white;
+	width: 200px;
+	border: none;
+	border-radius: 2px;
+	padding: 10px;
+	margin: 5px 5px;
+	font-size: 20px;
+
+}
+
+.placed-gif {
+	margin: 5px 5px;
+}
+
+.gif-div {
+	float: left;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: sans-serif;
+}
