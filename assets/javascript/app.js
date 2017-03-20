@@ -17,7 +17,7 @@ var buttonMaker = function(arr) {
 }
 
 var gifGetter = function() {
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + $(this).attr("id").trim() + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).attr("id").trim() + "&api_key=dc6zaTOxFJmzC&limit=10";
 	$("#gif-area").empty();
 	$.ajax({
 	url: queryURL,
@@ -26,7 +26,6 @@ var gifGetter = function() {
 		var results = response.data;
 		var image;
 		var div;
-		console.log("hey");
 		for(j = 0; j < results.length; j++) {
 			image = "<image>";
 			div = "<div class='gif-div' id='" + [j] + "'></div>"
